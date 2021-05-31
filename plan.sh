@@ -1,6 +1,6 @@
 pkg_name=rust
 pkg_origin=core
-pkg_version=1.50.0
+pkg_version=1.52.1
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_description="\
 Rust is a systems programming language that runs blazingly fast, prevents \
@@ -10,7 +10,7 @@ pkg_upstream_url="https://www.rust-lang.org/"
 pkg_license=('Apache-2.0' 'MIT')
 _url_base="https://static.rust-lang.org/dist"
 pkg_source="$_url_base/${pkg_name}-${pkg_version}-x86_64-unknown-linux-gnu.tar.gz"
-pkg_shasum="fa889b53918980aea2dea42bfae4e858dcb2104c6fdca6e4fe359f3a49767701"
+pkg_shasum="617ae06e212cb65bc4abbf52b158b0328b9f1a6c2f822c27c95b274d6fbc0627"
 pkg_dirname="${pkg_name}-${pkg_version}-x86_64-unknown-linux-gnu"
 pkg_deps=(
   core/glibc
@@ -33,7 +33,7 @@ _target_sources=(
 )
 
 _target_shasums=(
-    "f8924ff7378552c2f16faba6aea178c1b098f4cfcb07247c7c58533543980594"
+    "1f3155180a1a143119fd7b1eae3eeed0a0758ca095fd6533918d87cefeb93fe0"
 )
 
 do_download() {
