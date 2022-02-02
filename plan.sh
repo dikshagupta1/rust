@@ -1,5 +1,5 @@
 pkg_name=rust
-pkg_origin=core
+pkg_origin=temp
 pkg_version=1.58.1
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_description="\
